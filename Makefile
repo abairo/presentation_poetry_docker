@@ -19,6 +19,9 @@ makemigrations:
 run:
 	docker-compose -f docker-compose.local.yaml run --rm --entrypoint="" --service-ports web python src/manage.py $(cmd) 
 
+runserver:
+	docker-compose -f docker-compose.local.yaml run --rm --entrypoint="" --service-ports web python src/manage.py runserver 0.0.0.0:8000
+
 migrations:
 	docker-compose -f docker-compose.local.yaml run --rm --entrypoint="" web python src/manage.py makemigrations
 
