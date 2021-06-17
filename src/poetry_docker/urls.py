@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from app_messages.views import current_datetime
+from app_messages.views import current_message
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('message', current_datetime, name='message')
+    path('message', current_message, name='message')
 ]
