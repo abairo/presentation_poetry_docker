@@ -10,28 +10,30 @@ https://python-poetry.org/
 Arquivo único para gerenciamento de pacotes e dependência (**TOML**)
 Utiliza um arquivo no formato toml que pode ser utilizado por outros gerenciadores.
 
-**Curiosidade útil:**
+**Autoatualização:**
 Poetry permite sua auto atualização/gerenciamento de versões
-
+#
 ##### DEPENDENCY RESOLVER
 Poetry comes with an exhaustive dependency resolver, which will always find a solution if it exists.
+#
 ##### ISOLATION
 Poetry either uses your configured virtualenvs or creates its own to always be isolated from your system.
-
+#
 ##### INTUITIVE CLI
 Poetry's commands are intuitive and easy to use, with sensible defaults while still being configurable.
-
+#
 ##### Libraries:
 Very powerful for build and publishing (public and private repository). Read the docs.
-
+#
 ##### Security 
 Use package hash
 example:
 ```
 13ce7b0871122719fd1199a7293ebd4753689142382480697e9e0c4ff45a8a6a  requests-2.25.0.tar.gz
 ```
+#
 ##### VERSION CONSTRAINTS  
- # 
+#
 ##### Caret requirements
 #
 | Requirements   |      Versions Allowed      |
